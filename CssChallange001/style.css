@@ -1,0 +1,70 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: "Protest Guerrilla", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+  
+
+.frame {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -200px;
+    margin-left: -200px;
+    width: 400px;
+    height: 400px;
+    overflow: hidden;
+    box-shadow: 0px 0px 100px rgba(0,0,0, 0.3);
+    background: #fff;
+    color: #e9e3e3;
+    background-image: linear-gradient(to right top, #711185, #333);
+}
+.center {
+    position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+    
+}
+
+.numbers {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+.one {
+    background-color: rgba(255, 255, 255, 0.9);
+    height: 100px;
+    width: 30px;
+    border-radius: 3rem;
+}
+.zero-one {
+   height: 100px;
+   width: 50px;
+   border: 23px solid rgba(255, 255, 255, 0.9); 
+   border-radius: 25px;
+}
+.zero-two {
+    height: 100px;
+    width: 50px;
+    border: 23px solid rgba(255, 255, 255, 0.9);
+    border-radius: 25px;
+}
+.text-one {
+    text-align: center;
+    font-weight: bold;
+    font-size: 35px;
+    letter-spacing: 10px;
+}
+.text-two {
+    text-align: center;
+    font-weight: bold;
+    font-size: 18px;
+}

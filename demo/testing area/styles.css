@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200i,400&display=swap');
+
+*{
+    margin: 0px;
+    padding: 5px;   
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    background-image: url("coffeebean.jpg");
+    background-size: 100vh auto;   
+}
+header{
+    margin: 0px 25rem;
+    align-items: center;
+    
+    justify-content: center;
+}
+.header h1{
+    text-align: center;
+    font-size: 50px;
+}
+.header p{
+    text-align: center;
+    font-weight: bold;
+    background: #ac8a42;
+    color: white;  
+}
+form {
+    background: rgba(105, 75, 0, 0.9);
+    justify-content: center;
+    align-items: center;
+    display: inline-block;
+    height: 100vh;
+    width: 700px;
+    margin: 0 25rem;
+    padding-top: 50px;
+    box-sizing: border-box;
+}

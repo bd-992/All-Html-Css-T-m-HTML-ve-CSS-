@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="header">
+        <h1 id="title">Survey Form</h1>
+        <p id="description">Thank you for taking the time to help us improve the platform</p>
+    </header>
+    
+        <form action="get" id="survey-form">
+            <div class="container1">
+            <label for="name" id="name-label">
+                 Name: <input id="name" name="name" type="text" placeholder="Enter your name" required>
+            </label>
+            <label for="email" id="email-label">
+                 Email: <input id="email" name="email" type="email" placeholder="Enter your email" required>
+             </label>
+            <label for="age" id="number-label">
+                 Age: <input id="age" name="age" type="number" placeholder="Age" min="10" max="120">
+            </label>
+            <p>What do you think is the worst feature of our institution?</p>
+            <select id="dropdown" name="customer-opinions" required>
+                <option disabled selected value>Select an option</option>
+                <option value="challenges">Employees attitude</option>
+                <option value="projects">Products</option>
+                <option value="community">Prices</option>
+                <option value="openSource">Other</option>
+            </select>
+           </div> 
+           <div class="container2">
+                <p>What often do you visit us?</p>
+                <label><input type="radio" name="visit frequency" value="none">None.</label>
+                <label><input type="radio" name="visit frequency" value="1-2">1-2 times a week.</label>
+                <label><input type="radio" name="visit frequency" value="3">3 times a week.</label>
+                <label><input type="radio" name="visit frequency" value="more3">More than 3 times.</label>
+            </div>
+            <div class="container3">
+                <p>What you usually do when you visit us?</p>
+                <label><input type="checkbox" name="checkboxs" value="study">Studying</label>
+                <label><input type="checkbox" name="checkboxs" value="work">Working</label>
+                <label><input type="checkbox" name="checkboxs" value="read">Reading</label>
+                <label><input type="checkbox" name="checkboxs" value="meet">Meeting Friends</label>
+                <label><input type="checkbox" name="checkboxs" value="drink">Just drinking coffee</label>
+
+                <p>Anything you would like to add</p>
+                <textarea id="comment" class="comments" placeholder="Enter your comment here..."></textarea>
+            </div> 
+            <button type="submit" id="submit" class="button">Submit</button>
+
+        </form>
+    
+</body>
+</html>
